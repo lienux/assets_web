@@ -1,0 +1,75 @@
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.facil a:link {text-decoration: none;}
+.facil a:visited {text-decoration: none;}
+.facil a:hover {text-decoration: underline; color: blue;}
+.facil a:active {text-decoration: underline;}
+
+/** {
+  box-sizing: border-box;
+}*/
+
+.zoom i{
+  /*padding: 50px;*/
+  /*background-color: green;*/
+  transition: transform .1s;
+  /*width: 200px;*/
+  /*height: 200px;*/
+  /*margin: 0 auto;*/
+}
+
+.zoom i:hover {
+  -ms-transform: scale(2.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
+  transform: scale(2.5); 
+}
+
+.zom{
+  /*padding: 50px;*/
+  /*background-color: green;*/
+  transition: transform .1s;
+  /*width: 200px;*/
+  /*height: 200px;*/
+  /*margin: 0 auto;*/
+}
+
+.zom:hover {
+  -ms-transform: scale(2.5); /* IE 9 */
+  -webkit-transform: scale(2.5); /* Safari 3-8 */
+  transform: scale(2.5); 
+}
+
+/* Red border */
+hr.new1 {
+  border-top: 1px solid red;
+}
+
+/* Dashed red border */
+hr.new2 {
+  border-top: 1px dashed red;
+}
+
+/* Dotted red border */
+hr.new3 {
+  border-top: 1px dotted rgb(180, 180, 180);
+  margin-top: 0;
+}
+
+/* Thick red border */
+hr.new4 {
+  border: 1px solid red;
+}
+
+/* Large rounded green border */
+hr.new5 {
+  border: 10px solid green;
+  border-radius: 5px;
+}
+
+pre {
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+ }
